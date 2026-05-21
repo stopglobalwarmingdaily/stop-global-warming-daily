@@ -5,7 +5,7 @@ on:
     branches:
       - "sync-fork"
   schedule:
-    - cron: '12 */1 * * *' # 12 minutes past the hour
+    - cron: '17 */1 * * *' 
   workflow_dispatch:
 
 permissions:
